@@ -1,0 +1,9 @@
+{
+  "semi": true,
+  "tabWidth": 2,
+  "singleQuote": false,
+  "printWidth": 90,
+  "jsxSingleQuote": false,
+  "trailingComma": "none",
+  "htmlWhitespaceSensitivity": "css"
+}
