@@ -12,8 +12,6 @@ interface InviteCodePageProps {
 const InviteCodePage = async ({ params }: InviteCodePageProps) => {
   const profile = await currentProfile();
 
-  console.log(profile);
-
   if (!profile) {
     return redirectToSignIn();
   }
