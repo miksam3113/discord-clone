@@ -1,4 +1,4 @@
-import { currentProfile } from "@/lib/currentProfile";
+import { currentProfile } from "@/lib/current-profile";
 import { redirect } from "next/navigation";
 import { db } from "@/lib/db";
 import { NavigationAction } from "@/components/navigation/navigation-action";

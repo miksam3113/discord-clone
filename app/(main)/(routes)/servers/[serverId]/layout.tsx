@@ -1,5 +1,5 @@
 import React from "react";
-import { currentProfile } from "@/lib/currentProfile";
+import { currentProfile } from "@/lib/current-profile";
 import { redirectToSignIn } from "@clerk/nextjs";
 import { db } from "@/lib/db";
 import { redirect } from "next/navigation";
