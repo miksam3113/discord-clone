@@ -148,6 +148,6 @@ model DirectMessage {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
-  @@unique([memberId])
+  @@index([memberId])
   @@index([conversationId])
 }
